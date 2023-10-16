@@ -1,0 +1,37 @@
+
+
+  /************************** STYLES SHOPPING CART ***********************/
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: aqua;
+}
+
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.product-card {
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+}
+
+.cart-item {
+  background-color: crimson;
+  padding: 1rem;
+  color: white;
+}
+
+/************************** STYLES CART ICON ***********************/
+.cart-icon{
+  width: 2%;
+  height: 2%;
+}
+
+.cart-count{
+  color: red;
+  background-color: yellow;
+}
